@@ -49,6 +49,7 @@ public class Surgebinding implements IModModule
 		//Registries
 		SurgebindingBlocks.BLOCKS.register(modBus);
 		SurgebindingItems.ITEMS.register(modBus);
+		SurgebindingBlockEntities.BLOCK_ENTITY_TYPES.register(modBus);
 		SurgebindingEntityTypes.ENTITY_TYPES.register(modBus);
 		SurgebindingAttributes.ATTRIBUTES.register(modBus);
 		SurgebindingManifestations.MANIFESTATIONS.register(modBus);
